@@ -183,6 +183,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DataBaseDlg.h" />
     <ClInclude Include="RecordAnalyzer.h" />
     <ClInclude Include="RecordAnalyzerDlg.h" />
     <ClInclude Include="resource.h" />
@@ -190,6 +191,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DataBaseDlg.cpp" />
     <ClCompile Include="RecordAnalyzer.cpp" />
     <ClCompile Include="RecordAnalyzerDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
