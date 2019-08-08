@@ -184,6 +184,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ConnectFile.h" />
     <ClInclude Include="DataBaseDlg.h" />
     <ClInclude Include="RecordAnalyzer.h" />
     <ClInclude Include="RecordAnalyzerDlg.h" />
@@ -192,6 +193,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ConnectFile.cpp" />
     <ClCompile Include="DataBaseDlg.cpp" />
     <ClCompile Include="RecordAnalyzer.cpp" />
     <ClCompile Include="RecordAnalyzerDlg.cpp" />
@@ -206,7 +208,9 @@
     <ResourceCompile Include="RecordAnalyzer.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="res\icon1.ico" />
     <None Include="res\RecordAnalyzer.rc2" />
+    <None Include="res\table.ico" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\RecordAnalyzer.ico" />

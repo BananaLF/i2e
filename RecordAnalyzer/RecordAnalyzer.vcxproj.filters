@@ -33,6 +33,9 @@
     <ClInclude Include="DataBaseDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ConnectFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RecordAnalyzer.cpp">
@@ -47,6 +50,9 @@
     <ClCompile Include="DataBaseDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ConnectFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RecordAnalyzer.rc">
@@ -55,6 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="res\RecordAnalyzer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\table.ico">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>

@@ -1,5 +1,6 @@
 #pragma once
-
+#include "Uitles\structinfo.h"
+#include "ConnectFile.h"
 
 // CDataBaseDlg ¶Ô»°¿ò
 
@@ -29,14 +30,17 @@ public:
 	void OnRClickNodeMenu(HTREEITEM hi, CPoint pt);
 	void OnRClickMenu(CPoint pt);
 
+	int ShowCustonMenu(CPoint pt, int index = 0);
+
 private:
 	CTreeCtrl m_pTreeFile;
 	CListCtrl m_pListTable;
+	CImageList m_imageList;
+
+	CConnectFile m_ConnectDlg;
 
 public:
-	afx_msg void OnRcAdd();
-	afx_msg void OnRcRemove();
-	afx_msg void OnRcEmpty();
-	afx_msg void OnRcPull();
-	afx_msg void OnRcPush();
+	afx_msg void OnLvnColumnclickListTabel(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnNMRClickListTabel(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnNMDblclkTreeDbFile(NMHDR *pNMHDR, LRESULT *pResult);
 };
